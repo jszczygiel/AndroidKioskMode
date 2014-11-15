@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jakubszczygiel/projects/KioskMode/app/build/intermediates/exploded-aar/KioskMode/lib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d0cb9122c186d8bd3e67f566f41a4c8468f72e91">
+        <dex dex="/Users/jakubszczygiel/projects/KioskMode/app/build/intermediates/pre-dexed/debug/classes-6d1c7e4c243628843d9c1a6ce8c6fb3de3f686f9.jar" />
+    </item>
+
+</items>
