@@ -6,9 +6,9 @@ Library for handling Kiosk Mode in your Android Application.
 Features:
 ---------
 
-* Run activity of you choose in kiosk mode
+* Run activity of you choice in kiosk mode
 * Blocks every application from going into foreground with activity manager (soon: support for whitelisted apps)
-* Handles home button by being Launcher App
+* Handles home button by being a Launcher App
 * Work from API level 11
 
 How to Use:
