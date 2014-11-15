@@ -19,7 +19,6 @@
         <activity
             android:name=".ExampleKioskActivity"
             android:enabled="false"
-            android:excludeFromRecents="true"
             android:label="@string/kiosk_activity"
             android:launchMode="singleTask"
             android:stateNotNeeded="true">

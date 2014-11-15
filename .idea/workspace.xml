@@ -39,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample/src/main/res/values/strings.xml">
+      <file leaf-file-name="KioskActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kioskLib/src/main/java/com/wroclawstudio/kioskmode/KioskActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="346">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4140625" vertical-offset="546" max-vertical-offset="930">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -1721,12 +1721,12 @@
         <option value="$PROJECT_DIR$/kioskLib/build.gradle" />
         <option value="$PROJECT_DIR$/sample/build.gradle" />
         <option value="$PROJECT_DIR$/sample/src/main/res/values-v14/theme.xml" />
-        <option value="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/layout/a_main.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/layout/a_kiosk.xml" />
         <option value="$PROJECT_DIR$/sample/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/sample/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2444,7 +2444,7 @@
         <state vertical-scroll-proportion="0.4921875" vertical-offset="21" max-vertical-offset="435">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2453,14 +2453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38323355" vertical-offset="97" max-vertical-offset="630">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kioskLib/src/main/java/com/wroclawstudio/kioskmode/KioskActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3088737" vertical-offset="299" max-vertical-offset="930">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -2488,16 +2480,6 @@
         <state vertical-scroll-proportion="0.21390374" vertical-offset="0" max-vertical-offset="561">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19791667" vertical-offset="29" max-vertical-offset="630">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <element signature="e#866#890#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2562,6 +2544,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4768786" vertical-offset="0" max-vertical-offset="346">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.119791664" vertical-offset="224" max-vertical-offset="615">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="30" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kioskLib/src/main/java/com/wroclawstudio/kioskmode/KioskActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4140625" vertical-offset="546" max-vertical-offset="930">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="41" />
           <folding />
         </state>
       </provider>
