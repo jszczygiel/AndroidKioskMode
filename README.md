@@ -1,7 +1,7 @@
 AndroidKioskMode
 ================
 
-Library for handling Kiosk Mode in your Android Application.
+Library for handling Kiosk Mode in your Android Application. It restricts device to be using only one activity whitout possiblity to switch to other app.
 
 Features:
 ---------
@@ -11,15 +11,21 @@ Features:
 * Handles home button by being a Launcher App
 * Work from API level 11
 
+Todo:
+-----
+
+* whitelisting apps that can be run in kiosk mode (example opening camera)
+
+
 How to Use:
 -----------
 
 1. Extend your activity from KioskActivity
-2. Add your activity declaraction in AndroidManifest.xml with following additions:
+2. Add your activity declaraction in AndroidManifest.xml in following manner:
 
 ```
   <activity
-      android:name=".ExampleKioskActivity"
+      android:name=".YourActivity"
       android:enabled="false"
       android:launchMode="singleTask"
       android:stateNotNeeded="true">
@@ -30,13 +36,9 @@ How to Use:
       </intent-filter>
   </activity>
 ```
-intent filters is for handling home button. Remember to set stateNotNeeded, launchMode and enabled properties as in example above. Activity has to be disabled in order to default launcher to work normaly. Only while kiosk activity is being started it is being turned on by library and handles home button.
+intent filter is for handling home button. Remember to set stateNotNeeded, launchMode and enabled properties as in example above. Activity has to be disabled in order to default launcher to work propely. 
 3. Start activity with call KioskActivity.startKioskActivity().
-
-Todo:
------
-
-* whitelisting apps that can be run in kiosk mode
+4. After first launch of activity press home button and choose your app to handle home button. After you switch off activity default launcher is taking over.
 
 
 License:
