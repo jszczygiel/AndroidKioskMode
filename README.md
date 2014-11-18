@@ -15,6 +15,7 @@ Todo:
 -----
 
 * whitelisting apps that can be run in kiosk mode (example opening camera)
+* multiactivity within one app support
 
 
 How to Use:
@@ -40,6 +41,10 @@ intent filter is for handling home button. Remember to set stateNotNeeded, launc
 3. Start activity with call KioskActivity.startKioskActivity().
 4. After first launch of activity press home button and choose your app to handle home button. After you switch off activity default launcher is taking over.
 
+Acknowledgments:
+----------------
+
+Thanks to Clifford answer at [stackoverflow](http://stackoverflow.com/questions/14233304/develop-app-run-in-kiosk-mode-in-android)
 
 License:
 -------
