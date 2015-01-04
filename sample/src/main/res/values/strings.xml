@@ -7,5 +7,8 @@
     <string name="kiosk_activity">Kiosk Activity</string>
     <string name="a_kiosk_finish_activity">Finish Activity</string>
     <string name="a_kiosk_text">After first launch of Kiosk Activity, you have to press home button and choose your app as default launcher. After you leave kiosk mode default launcher will be used instead.\n\nOnly way to leave Kiosk Mode is via button.</string>
+    <string name="a_kiosk_start_different_activity">Start another activity</string>
+    <string name="a_second_finish_activity">Finish Activity</string>
+    <string name="second_activity">Second Activity</string>
 
 </resources>

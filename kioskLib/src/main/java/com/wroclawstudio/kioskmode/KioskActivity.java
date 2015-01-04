@@ -8,6 +8,9 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by jakubszczygiel on 15/11/2014.
  */
@@ -23,21 +26,15 @@ public class KioskActivity extends Activity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-
+    protected void onStop() {
+        super.onStop();
         ActivityManager activityManager = (ActivityManager) getApplicationContext()
                 .getSystemService(Context.ACTIVITY_SERVICE);
-
-        activityManager.moveTaskToFront(getTaskId(), 0);
-    }
-
-    @Override
-    protected void onDestroy() {
-        ComponentName cn = new ComponentName(getPackageName(), this.getClass().getName());
-        getPackageManager().setComponentEnabledSetting(cn, PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                PackageManager.DONT_KILL_APP);
-        super.onDestroy();
+        ArrayList<String> whiteList=new ArrayList<>();
+        whiteList.add(getPackageName());
+        if(!isWhiteList(activityManager,whiteList)) {
+            activityManager.moveTaskToFront(getTaskId(), 0);
+        }
     }
 
     @Override
@@ -61,5 +58,16 @@ public class KioskActivity extends Activity {
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         }
         context.startActivity(i);
+    }
+
+    public static boolean isWhiteList(ActivityManager am, ArrayList<String> whiteList) {
+        List<ActivityManager.RunningTaskInfo> taskInfo = am.getRunningTasks(1);
+        ComponentName componentInfo = taskInfo.get(0).topActivity;
+        for(String item : whiteList){
+            if(item.contains(componentInfo.getPackageName())){
+                return true;
+            }
+        }
+        return false;
     }
 }
