@@ -57,6 +57,9 @@ public class KioskActivity extends Activity {
                 PackageManager.DONT_KILL_APP);
         Intent i = new Intent(context, kioskActivityClass);
         i.putExtra(HANDLE_BACK, handleBack);
+        if (!(context instanceof Activity)) {
+            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        }
         context.startActivity(i);
     }
 }
