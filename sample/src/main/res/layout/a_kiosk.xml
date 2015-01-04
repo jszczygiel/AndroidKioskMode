@@ -18,4 +18,13 @@
         android:layout_below="@+id/a_kiosk_text"
         android:layout_centerHorizontal="true"
         android:text="@string/a_kiosk_finish_activity" />
+
+    <Button
+        android:id="@+id/a_kiosk_start_different_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_large"
+        android:layout_below="@+id/a_kiosk_finish_activity"
+        android:layout_centerHorizontal="true"
+        android:text="@string/a_kiosk_start_different_activity" />
 </RelativeLayout>

@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name="com.wroclawstudio.example.SecondActivity"
+            android:label="@string/second_activity">
+        </activity>
         <activity
             android:name=".ExampleKioskActivity"
             android:enabled="false"
@@ -31,5 +34,6 @@
         </activity>
     </application>
     <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
 
 </manifest>
